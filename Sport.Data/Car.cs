@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sport.Data
 {
-    class Car
+    public class Car
     {
         public int id { get; set; }
         public string Name { get; set; }

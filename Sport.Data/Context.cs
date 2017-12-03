@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sport.Data
 {
-    class Context: DbContext
+    public class Context: DbContext
     {
         public DbSet<Manufacturer> Manufacturers { get; set; }
         public DbSet<Model> Models { get; set; }
